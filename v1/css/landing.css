@@ -1,0 +1,97 @@
+main img {
+  height: 17.5rem;
+}
+a.button {
+  display: block;
+  width: 180px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--primary-nitro-blue);
+  color: var(--neutral-white);
+  text-align: center;
+}
+p.product-price {
+  font-size: 2.063rem;
+  color: var(--primary-nitro-blue);
+}
+
+div.banner {
+  padding: 0px 80px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+div.banner > * {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+div.banner .banner__discription {
+  width: 30%;
+  box-sizing: border-box;
+  flex: 0 0 33%;
+}
+div.banner img {
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+main section > a,
+div.banner > a {
+  background-color: var(--primary-nitro-blue);
+  color: var(--neutral-white);
+}
+
+section.products {
+  background-color: var(--neutral-light-gray);
+  text-align: center;
+  padding: 20px;
+}
+
+section.products .products__card {
+  background-color: var(--neutral-white);
+  width: 330px;
+  height: 440px;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: inline-block;
+}
+section.products a.button {
+  margin: auto;
+  margin: 40px auto;
+}
+
+section.discount-banner {
+  background-color: var(--neutral-graphite);
+  width: 90%;
+  color: var(--neutral-white);
+  text-align: center;
+  margin: 40px;
+}
+
+.discount-banner > p {
+  font-size: 3.75rem;
+}
+
+.social-media img {
+  width: 50px;
+}
+
+footer {
+  background-color: var(--primary-nitro-pink);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+footer > * {
+  display: inline-block;
+  padding: 20px 80px;
+  flex: 0.5;
+}
+footer .social-media {
+  flex: 1;
+}

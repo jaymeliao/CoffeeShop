@@ -1,0 +1,102 @@
+@use "partials/variables" as *;
+
+
+main img {
+  height: 17.5rem;
+}
+
+a.button {
+  display: block;
+  width: 180px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: $primary-nitro-blue;
+  color: $neutral-white;
+  text-align: center;
+}
+
+p.product-price {
+  font-size: 2.063rem;
+  color: $primary-nitro-blue;
+}
+
+.banner {
+  box-sizing: border-box;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  &__description {
+    width: 30%;
+    
+  }
+  
+
+  &__img {
+    flex:1
+  }
+}
+
+main section > a,
+div.banner > a {
+  background-color: $primary-nitro-blue;
+  color: $neutral-white;
+}
+
+section.products {
+  background-color: $neutral-light-gray;
+  text-align: center;
+  padding: 20px;
+
+  .products__card {
+    background-color: $neutral-white;
+    width: 330px;
+    height: 440px;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: inline-block;
+
+    a.button {
+      margin: auto;
+      margin: 40px auto;
+    }
+  }
+}
+
+section.discount-banner {
+  background-color: $neutral-graphite;
+  width: 90%;
+  color: $neutral-white;
+  text-align: center;
+  margin: 40px;
+
+  > p {
+    font-size: 3.75rem;
+  }
+}
+
+.social-media img {
+  width: 50px;
+}
+
+footer {
+  background-color: $primary-nitro-pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+
+  > * {
+    display: inline-block;
+    padding: 20px 80px;
+    flex: 0.5;
+  }
+
+  .social-media {
+    flex: 1;
+  }
+}

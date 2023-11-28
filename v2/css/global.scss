@@ -1,0 +1,70 @@
+@use "partials/variables" as *;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+}
+
+p{
+    font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: $primary-nitro-pink;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+  &__logo{
+    display: flex;
+    gap: 1.5rem;
+    img {
+        width: 50px;
+      }
+  }
+
+  nav {
+    .nav-list{
+      display: flex;
+      list-style: none;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      align-items: center;
+      &__item{
+        text-transform: uppercase;
+        font-size: 1.3125rem;;
+        a {
+            color: $neutral-black;
+        }    
+        &--highlight a{
+            color: $primary-nitro-blue;
+        }
+      }
+    }
+  }
+
+}
+
+
+
